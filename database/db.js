@@ -1,7 +1,7 @@
 // database/db.js
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('testdb2', 'root', '12345678', {
+const sequelize = new Sequelize('testdb', 'root', '123456789', {
   host: 'localhost',
   dialect: 'mysql',
   pool: {
